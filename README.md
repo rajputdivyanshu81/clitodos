@@ -24,13 +24,13 @@ The application can be run using Node.js. Here are the available commands:
 ### Add a new task
 
 ```
-node index.js add "Your task description"
+node todo.js add "Your task description"
 ```
 
 ### Delete a task
 
 ```
-node index.js delete <task_index>
+node todo.js delete <task_index>
 ```
 
 Replace `<task_index>` with the index of the task you want to delete.
@@ -38,7 +38,7 @@ Replace `<task_index>` with the index of the task you want to delete.
 ### Mark a task as done
 
 ```
-node index.js done <task_index>
+node todo.js done <task_index>
 ```
 
 Replace `<task_index>` with the index of the task you want to mark as done.
@@ -46,7 +46,7 @@ Replace `<task_index>` with the index of the task you want to mark as done.
 ### List all tasks
 
 ```
-node index.js list
+node todo.js list
 ```
 
 ### Show help
@@ -57,7 +57,7 @@ node index.js help
 
 ## File Structure
 
-- `index.js`: The main application file containing all the logic.
+- `todo.js`: The main application file containing all the logic.
 - `todos.json`: JSON file where tasks are stored (created automatically).
 
 ## How It Works
